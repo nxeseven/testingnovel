@@ -1,0 +1,161 @@
+sudo apt update -y
+sudo apt-get install git -y
+git config --global user.name "nxeseven"
+git config --global user.email "nxe7llc@gmail.com"
+mkdir Mytest
+git init Mytest/
+cd Mytest/
+nano hello.txt
+git add hello.txt 
+git commit -m "first try"
+git remote add origin https://github.com/nxeseven/testingbook.git
+git push origin master
+git pull origin master
+ls
+git push origin master
+git status
+git remote add origin https://github.com/nxeseven/testingworld.git
+cd
+mkdir Myworld
+git init Myworld
+cd Myworld/
+nano world.txt
+git commit -m "first commit"
+git add world.txt
+git commit -m "first commit"
+git remote add origin https://github.com/nxeseven/testingnovel.git
+git push -u origin master
+cd
+ls -a
+sudo nano .bash_history 
+git init
+git add .bash_history
+git commit -m "revealing the process of installing and operating git from the commandline"
+git push -u origin master
+git remote add origin https://github.com/nxeseven/testingnovel.git
+git push -u origin master
+git remote add origin https://github.com/nxeseven/testingworld.git
+git push origin master
+mkdir lasttry
+git init lasttry/
+cd lasttry/
+cd
+ls
+cd Myworld/
+ls
+cd
+cd lasttry/
+ls
+cd
+git init lasttry/
+cd lasttry/
+nano building.txt
+git add building.txt 
+git commit -m "starting new"
+git remote add origin git@github.com:nxeseven/hippo.git
+git push -u origin master
+sudo git push -u origin master
+cd
+cd Myworld/
+nano pluto.txt
+git add pluto.txt 
+git commit -m "lesson 1"
+git remote add origin https://github.com/nxeseven/testingworld.git
+git push -u origin master
+cd
+cp .bash_history Myworld/
+cd Myworld/
+ls
+ls -a
+git add .bash_history 
+git commit -m "terminal history"
+git push -u origin master
+cp .bash_history testingnovel/bash_history3.txt
+sudo rm .bash_history
+cp testingnovel/bash_history2.txt .bash_history
+cd testingnovel/
+ls
+cd
+git init testingnovel/
+cd testingnovel/
+ls
+git add bash_history3.txt 
+git commit -m "jupyter installation and config"
+git remote add origin https://github.com/nxeseven/testingbook.git
+git push -u origin master
+nano superman.txt
+nano batman.txt
+git add -A && git commit -m "Multiple added files"
+git push -u origin master
+cd
+cd testingnovel/
+mv batman.txt robin.txt
+ls
+git add -A && git commit -m "Multiple added files 2"
+git push -u origin master
+rm robin.txt 
+git add -A && git commit -m "Multiple added files 3"
+git push -u origin master
+cd
+nano testingnovel/bash_history3.txt 
+sudo pip3 install ipywidgets
+sudo jupyter nbextension enable --py widgetsnbextension
+ifconfig
+wget https://github.com/nxeseven/testingnovel/blob/master/speechapp_(1).ipynb
+wget https://github.com/nxeseven/testingnovel/blob/master/speechapp.ipynb
+mv speechapp.ipynb testingnovel/
+jupyter notebook --ip=*
+sudo reboot
+jupyter notebook --ip=*
+jupyter notebook --ip=*
+jupyter nbextension enable --py widgetsnbextension
+sudo reboot
+jupyter notebook --ip=*
+ls
+clear
+ls
+cd testingnovel/
+ls
+git add -A && git commit -m "Multiple added files 4"
+git push -u origin master
+ls
+git add -A && git commit -m "Multiple added files 4"
+git status
+ls
+cd
+cp -r testingnovel/ joining/
+ls
+cd joining/
+ls
+cd
+cd testingnovel/
+ls
+rm -r
+sudo rm -r
+cd
+sudo rm -r testingnovel/*
+ls
+sudo testingnovel/
+cd testingnovel/
+git pull -u origin master
+git pull origin master
+ls
+ls -a
+cd
+sudo rm -r testingnovel/
+git clone https://github.com/nxeseven/testingnovel.git
+ls
+cd testingnovel/
+clear
+ls
+cd
+git init testingnovel/
+git add -A && git commit -m "Realign"
+cd testingnovel/
+git add -A && git commit -m "Realign"
+git push -u origin master
+git add -A && git commit -m "Realign"
+git push -u origin master
+git add -A && git commit -m "Realign"
+git push -u origin master
+cd
